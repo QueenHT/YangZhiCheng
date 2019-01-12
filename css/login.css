@@ -1,0 +1,79 @@
+body{
+    /* background-color: 	#F8F8FF; */
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: .45rem;
+    background-image: url(images/bg.jpg)
+  
+  }
+  .dd1{
+      width: 100%;
+    height: 100%;
+  }
+  table{
+    margin-top: 25%;
+    margin-left: 23%;
+  }
+  table tr td:last-child{
+
+    text-align: left;
+    padding-left: 0.08rem;
+    font-size: .45rem;
+   }
+   table tr td:nth-child(1){
+    width:3rem;
+    text-align: left;
+    height: .5rem;
+    border-bottom: 1px solid rgb(228, 225, 225);
+    
+   }
+   .fr input{
+    padding: 0.08rem;
+    width:4rem;
+    height: 0.8rem;
+    background-color: transparent;
+    /* border-bottom: 1px solid black; */
+    /* border-radius: 4%; */
+    margin-top:0.5rem;
+    font-size: .45rem;
+    border:0px;
+  }
+  input:focus{
+      outline: none;
+  }
+  button:focus{
+    outline: none;
+}
+  #btn{
+    width: 100%;
+    height: 0.7rem;
+    background: red;
+    color: #fff;
+    border: 0;
+    margin-top: 0.1rem;
+    font-size: .45rem;
+    border-radius: 0.7rem;
+    margin-top: 1rem;
+  
+  }
+  #p1{
+    margin-left: 23%;  
+  }
+  
+  #yz{
+    width:1.6rem;
+  }
+  #ss3{
+    width: 1.2rem;
+    height: 1rem;
+    background: black;
+    color: #fff;
+    font-size: 0.45rem;
+    margin-left: 1rem;
+    /* margin: 0.2rem; */
+  }
+  .dh1{
+    background-image: url(../image/dh2.jpg);
+  }
+  
