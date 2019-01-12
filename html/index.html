@@ -94,12 +94,8 @@
         }
         var span=d1.children[0];
         span.onclick=function(){
-            console.log( $('#updatediv'))
-              $('#updatediv').css('display','block');
-              $('#textdiv').css('display','none');
-
-            d1.style.bottom="-5rem";//单击X时关闭窗口
-            // setTimeout(task,3000);//再弹出窗口
+            window.location ='move.html';
+            
         }
         function getRemainderTime (startTime){
             var s1 = new Date(startTime.replace(/-/g, "/")),
